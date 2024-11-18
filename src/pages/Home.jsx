@@ -26,7 +26,7 @@ export default function Home() {
             <div>
               <a href="mailto: jessianne001@email.com">
                 {" "}
-                jessianne001@email.com
+                jessianne001@gmail.com
               </a>{" "}
               |{" "}
               <a
