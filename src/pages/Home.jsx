@@ -24,7 +24,7 @@ export default function Home() {
               connect or collaborate!
             </p>
             <div>
-              <a href="mailto: jessianne001@email.com">
+              <a href="mailto: jessianne001@gmail.com">
                 {" "}
                 jessianne001@gmail.com
               </a>{" "}
