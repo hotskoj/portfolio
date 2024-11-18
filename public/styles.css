@@ -1,0 +1,68 @@
+.home {
+    text-align: center;
+}
+
+.header {
+    background-color: #5271ff;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.home h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 100px;
+}
+
+.intro {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.intro p {
+    font-size: 25px;
+}
+
+.intro > a {
+    display: inline-block;
+}
+
+.about {
+    text-align: center;
+}
+
+.skills {
+    padding: 50px 0;
+}
+
+.skills .col-sm-2 {
+    width: 200px;
+}
+.education {
+    padding: 50px 0;
+    background-color: #C4D7FF;
+}
+
+.hobbies {
+    padding: 50px 0;
+}
+
+.projects h1 {
+    text-align: center;
+}
+
+.projects img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1%;
+}
+
+#profile-pic {
+    height: 250px;
+    border-radius: 50%;
+}
+
+#pup-pic {
+    height: 300px;
+    border-radius: 50%;
+}
