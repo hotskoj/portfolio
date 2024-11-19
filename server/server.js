@@ -88,6 +88,26 @@ app.get("/project", async (req, res) => {
   }
 });
 
+app.get("/blog", async (req, res) => {
+  try {
+    const blogs = await notion.databases.query({
+      database_id: process.env.BLOGS_DB_ID,
+    });
+
+    res.send(blogs.results.filter(item => item.properties.Published).map(item => {
+      return {
+        id: item.id,
+        name: item.properties.Blog.title[0].plain_text,
+        date: item.properties["Publication Date"].date,
+        snippet: item.properties.Snippet.rich_text[0].plain_text,
+        cover: item.properties.cover.rich_text[0].plain_text,
+        url: item.public_url
+      }}))
+  } catch (error) {
+    res.send([]);
+  }
+});
+
 app.get("*", (req, res) => {
   res.sendFile(HTML_FILE);
 });

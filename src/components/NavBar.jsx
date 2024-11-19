@@ -34,6 +34,11 @@ export default function NavBar(props) {
                   Projects
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/blogs">
+                  Blogs
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

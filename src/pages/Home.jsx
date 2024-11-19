@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar.jsx";
+import Footer from "../components/Footer.jsx";
 import profilePic from "../../public/images/profilePic.jpeg";
 
 export default function Home() {
@@ -12,8 +13,8 @@ export default function Home() {
           <h2>Software Developer</h2>
         </div>
       </div>
-      <div className="row intro">
-        <div className="d-flex flex-column align-items-center">
+      <div className="row intro m-0">
+        <div className="d-flex flex-column align-items-center p-0">
           <img id="profile-pic" src={profilePic} alt="Profile Pic" />
           <div className="container">
             <p className="pt-5">
@@ -43,6 +44,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
