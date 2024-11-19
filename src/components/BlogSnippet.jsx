@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function BlogSnippet(props) {
   return (
-    <div className="row mb-3">
+    <div className="row my-5">
       <div className="col-md-6">
         <img className="thumbnail" src={props.img} alt="Blog Cover" />
       </div>

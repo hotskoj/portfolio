@@ -33,7 +33,7 @@ export default function Blogs() {
     <div className="blogs">
       <NavBar />
       <div className="container">
-        <h1 className="mb-5">Blogs</h1>
+        <h1>Blogs</h1>
         {blogs}
       </div>
       <Footer />

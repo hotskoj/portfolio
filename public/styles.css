@@ -1,5 +1,6 @@
 .home {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .header {
@@ -40,6 +41,7 @@
 .skills .col-sm-2 {
     width: 200px;
 }
+
 .education {
     padding: 50px 0;
     background-color: #C4D7FF;
